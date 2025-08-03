@@ -4,7 +4,7 @@
 
 Put your markdown file into `docs/` and it will automatically appear on the website
 
-## Create category
+## Optional: Create category
 
 If you want to create category - create folder and add `_category_.json` file, with content:
 
