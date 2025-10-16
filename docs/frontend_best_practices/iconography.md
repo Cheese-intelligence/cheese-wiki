@@ -4,21 +4,14 @@ sidebar_position: 3
 
 # Iconography
 
-For icons, we use [`react-native-lucide`](https://lucide.dev/guide/packages/lucide-react-native), which provides a comprehensive set of icons that are easy to use and customize.
+## Adding icons:
 
-### Usage
+1. place svg in assets/svgs/icons
+2. add new export to app/_components/svg/Icons.tsx
+3. add to preload file in app/_components/svg/PreLoadIcons.tsx
+4. use just like lucide component
 
-To use an icon, import it from `lucide-react-native` and then use it as a component. You can customize the size, color, and stroke width of the icons.
-
-```tsx
-import { BellRing } from 'lucide-react-native';
-
-const MyComponent = () => {
-  return <BellRing color="red" size={48} />;
-};
-
-export default MyComponent;
-```
+to change color, use color prop
 
 ### Best Practices
 
